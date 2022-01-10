@@ -7,7 +7,7 @@ import Data.Conduit.Network
 main :: IO ()
 main =
   runTCPServer
-    (serverSettings 8080 "127.0.0.1")
+    (serverSettings 8080 "*")
     run
   where
     response = "HTTP/1.0 200 OK\nContent-Length: 14\n\nHello, World!\n"
