@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,haskell,python,node,ocaml
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,haskell,python,node,ocaml
 
+result
+
 ### Haskell ###
 dist
 dist-*
